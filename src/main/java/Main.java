@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Nhập số nguyên dương n: ");
+        System.out.print("Nhap so nguyen duong n: ");
         int n = scanner.nextInt();
 
         int sum = 0;
@@ -13,6 +13,6 @@ public class Main {
             }
         }
 
-        System.out.println("Tổng các số chẵn từ 1 đến " + n + " là: " + sum);
+        System.out.println("Tong cac so chan tu " + n + " la: " + sum);
     }
 }
